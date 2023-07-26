@@ -49,6 +49,11 @@ public class Breakfast
   }
   public static ErrorOr<Breakfast> Upsert(Guid id, UpsertBreakfastRequest request)
   {
+    if (request.Name.Length is < MinNameLenght or > MaxNameLenght)
+    {
+      return ServiceErrors.Errors.Breakfast.InvalidName;
+    }
+
     return new Breakfast(
         id,
         request.Name,
