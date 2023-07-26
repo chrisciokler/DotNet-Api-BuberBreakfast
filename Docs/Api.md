@@ -1,6 +1,10 @@
 # Buber Breakfast API
 
+
+## Table of content
+
 - [Buber Breakfast API](#buber-breakfast-api)
+  - [Start Server for Buber Breakfast API](#start-server)
   - [Create Breakfast](#create-breakfast)
     - [Create Breakfast Request](#create-breakfast-request)
     - [Create Breakfast Response](#create-breakfast-response)
@@ -16,6 +20,15 @@
   - [Delete Breakfast](#delete-breakfast)
     - [Delete Breakfast Request](#delete-breakfast-request)
     - [Delete Breakfast Response](#delete-breakfast-response)
+
+<br>
+
+## Start server
+
+### Launching server in port: http://localhost:5187
+```
+dotnet run --project ./BuberBreakfast
+```
 
 ## Create Breakfast
 
