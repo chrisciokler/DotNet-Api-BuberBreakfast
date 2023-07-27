@@ -23,7 +23,7 @@
 
 <br>
 
-## Start server
+## Starting server
 
 ### Launching server in port: http://localhost:5187
 ```
